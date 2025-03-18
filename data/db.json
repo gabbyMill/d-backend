@@ -1,0 +1,300 @@
+{
+  "users": {
+    "1": {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "apartmentNumber": "101"
+    },
+    "2": {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "apartmentNumber": "202"
+    },
+    "3": {
+      "id": "3",
+      "name": "Robert Johnson",
+      "email": "robert.johnson@example.com",
+      "apartmentNumber": "303"
+    },
+    "4": {
+      "id": "4",
+      "name": "Lisa Chen",
+      "email": "lisa.chen@example.com",
+      "apartmentNumber": "404"
+    }
+  },
+  "amenities": {
+    "1": {
+      "id": "1",
+      "name": "Swimming Pool",
+      "description": "Olympic-sized swimming pool with lounge area",
+      "location": "Ground Floor",
+      "maxDurationHours": 2,
+      "timeSlots": [
+        {
+          "id": "slot_tue_9h",
+          "startTime": "2025-03-18T07:00:00.000Z",
+          "endTime": "2025-03-18T09:00:00.000Z",
+          "bookedBy": "1"
+        },
+        {
+          "id": "slot_tue_13h",
+          "startTime": "2025-03-18T11:00:00.000Z",
+          "endTime": "2025-03-18T13:00:00.000Z",
+          "bookedBy": "2"
+        },
+        {
+          "id": "slot_tue_17h",
+          "startTime": "2025-03-18T15:00:00.000Z",
+          "endTime": "2025-03-18T17:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_wed_9h",
+          "startTime": "2025-03-19T07:00:00.000Z",
+          "endTime": "2025-03-19T09:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_wed_13h",
+          "startTime": "2025-03-19T11:00:00.000Z",
+          "endTime": "2025-03-19T13:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_wed_17h",
+          "startTime": "2025-03-19T15:00:00.000Z",
+          "endTime": "2025-03-19T17:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_thu_9h",
+          "startTime": "2025-03-20T07:00:00.000Z",
+          "endTime": "2025-03-20T09:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_thu_13h",
+          "startTime": "2025-03-20T11:00:00.000Z",
+          "endTime": "2025-03-20T13:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_thu_17h",
+          "startTime": "2025-03-20T15:00:00.000Z",
+          "endTime": "2025-03-20T17:00:00.000Z",
+          "bookedBy": null
+        }
+      ]
+    },
+    "2": {
+      "id": "2",
+      "name": "Fitness Center",
+      "description": "Fully equipped gym with cardio and weight training equipment",
+      "location": "Second Floor",
+      "maxDurationHours": 1,
+      "timeSlots": [
+        {
+          "id": "slot_tue_9h",
+          "startTime": "2025-03-18T07:00:00.000Z",
+          "endTime": "2025-03-18T08:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_tue_13h",
+          "startTime": "2025-03-18T11:00:00.000Z",
+          "endTime": "2025-03-18T12:00:00.000Z",
+          "bookedBy": "1"
+        },
+        {
+          "id": "slot_tue_17h",
+          "startTime": "2025-03-18T15:00:00.000Z",
+          "endTime": "2025-03-18T16:00:00.000Z",
+          "bookedBy": "1"
+        },
+        {
+          "id": "slot_wed_9h",
+          "startTime": "2025-03-19T07:00:00.000Z",
+          "endTime": "2025-03-19T08:00:00.000Z",
+          "bookedBy": "1"
+        },
+        {
+          "id": "slot_wed_13h",
+          "startTime": "2025-03-19T11:00:00.000Z",
+          "endTime": "2025-03-19T12:00:00.000Z",
+          "bookedBy": "1"
+        },
+        {
+          "id": "slot_wed_17h",
+          "startTime": "2025-03-19T15:00:00.000Z",
+          "endTime": "2025-03-19T16:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_thu_9h",
+          "startTime": "2025-03-20T07:00:00.000Z",
+          "endTime": "2025-03-20T08:00:00.000Z",
+          "bookedBy": "1"
+        },
+        {
+          "id": "slot_thu_13h",
+          "startTime": "2025-03-20T11:00:00.000Z",
+          "endTime": "2025-03-20T12:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_thu_17h",
+          "startTime": "2025-03-20T15:00:00.000Z",
+          "endTime": "2025-03-20T16:00:00.000Z",
+          "bookedBy": null
+        }
+      ]
+    },
+    "3": {
+      "id": "3",
+      "name": "Conference Room",
+      "description": "Meeting room with presentation equipment",
+      "location": "Third Floor",
+      "maxDurationHours": 3,
+      "timeSlots": [
+        {
+          "id": "slot_tue_9h",
+          "startTime": "2025-03-18T07:00:00.000Z",
+          "endTime": "2025-03-18T10:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_tue_13h",
+          "startTime": "2025-03-18T11:00:00.000Z",
+          "endTime": "2025-03-18T14:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_tue_17h",
+          "startTime": "2025-03-18T15:00:00.000Z",
+          "endTime": "2025-03-18T18:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_wed_9h",
+          "startTime": "2025-03-19T07:00:00.000Z",
+          "endTime": "2025-03-19T10:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_wed_13h",
+          "startTime": "2025-03-19T11:00:00.000Z",
+          "endTime": "2025-03-19T14:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_wed_17h",
+          "startTime": "2025-03-19T15:00:00.000Z",
+          "endTime": "2025-03-19T18:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_thu_9h",
+          "startTime": "2025-03-20T07:00:00.000Z",
+          "endTime": "2025-03-20T10:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_thu_13h",
+          "startTime": "2025-03-20T11:00:00.000Z",
+          "endTime": "2025-03-20T14:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_thu_17h",
+          "startTime": "2025-03-20T15:00:00.000Z",
+          "endTime": "2025-03-20T18:00:00.000Z",
+          "bookedBy": null
+        }
+      ]
+    },
+    "4": {
+      "id": "4",
+      "name": "Rooftop Lounge",
+      "description": "Outdoor lounge area with BBQ equipment",
+      "location": "Rooftop",
+      "maxDurationHours": 4,
+      "timeSlots": [
+        {
+          "id": "slot_tue_9h",
+          "startTime": "2025-03-18T07:00:00.000Z",
+          "endTime": "2025-03-18T11:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_tue_13h",
+          "startTime": "2025-03-18T11:00:00.000Z",
+          "endTime": "2025-03-18T15:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_tue_17h",
+          "startTime": "2025-03-18T15:00:00.000Z",
+          "endTime": "2025-03-18T19:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_wed_9h",
+          "startTime": "2025-03-19T07:00:00.000Z",
+          "endTime": "2025-03-19T11:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_wed_13h",
+          "startTime": "2025-03-19T11:00:00.000Z",
+          "endTime": "2025-03-19T15:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_wed_17h",
+          "startTime": "2025-03-19T15:00:00.000Z",
+          "endTime": "2025-03-19T19:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_thu_9h",
+          "startTime": "2025-03-20T07:00:00.000Z",
+          "endTime": "2025-03-20T11:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_thu_13h",
+          "startTime": "2025-03-20T11:00:00.000Z",
+          "endTime": "2025-03-20T15:00:00.000Z",
+          "bookedBy": null
+        },
+        {
+          "id": "slot_thu_17h",
+          "startTime": "2025-03-20T15:00:00.000Z",
+          "endTime": "2025-03-20T19:00:00.000Z",
+          "bookedBy": null
+        }
+      ]
+    }
+  },
+  "bookings": {
+    "1": {
+      "id": "1",
+      "userId": "1",
+      "amenityId": "1",
+      "timeSlotId": "slot_tue_13h",
+      "createdAt": "2025-03-18T11:39:13.205Z",
+      "additionalInfo": "Swimming party with family"
+    },
+    "2": {
+      "id": "2",
+      "userId": "2",
+      "amenityId": "2",
+      "timeSlotId": "slot_tue_17h",
+      "createdAt": "2025-03-18T11:39:13.205Z",
+      "additionalInfo": "Personal training session"
+    }
+  }
+}
